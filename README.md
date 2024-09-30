@@ -54,3 +54,16 @@
 
 &emsp;&emsp;Este resultado mostra que a moeda deve aumentar de preço de forma relevante até a metade de outubro, em que ela começa a subir de forma mais lenta. Assim, o melhor momento para se comprar a moeda é no dia 20/09, com o valor de 11 centávos americanos e para se vender no dia 28/12, com o valor de 16 centavos americanos
 
+## API
+
+&emsp;&emsp;Para a exibição de todo o projeto feito a partir dos dados gerados no notebook, foi criado uma API, em que fosse possível gerar predições, treinar o modelo com novos dados e exibir os resultados por meio de gráficos
+
+&emsp;&emsp;Esta API foi feita utilizando TypeScripts, Tailwind e React. O backend foi feito utilizando Postgres e Docker
+
+## Dashboard
+
+&emsp;&emsp;Para interagir com o modelo e visualizar os cenários conforme a predição dos modelos, foi criada uma dashboard nesta API. Ela pode ser vista na rota /dashboard, e nesta rota exibe uma imagem com a predição feita pelo modelo
+
+## Logs
+
+&emsp;&emsp;Para acessar o sistema de logs da atividade, é preciso acessar a seguinte rota: http://localhost:8000/logs
